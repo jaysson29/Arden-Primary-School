@@ -1,0 +1,300 @@
+/*--Prefix's--*/
+
+.center{
+    text-align: center !important;
+}
+
+.w100{
+    width: 100% !important;
+}
+
+.h100{
+    height: 100% !important;
+}
+
+#google_translate_element {
+    margin-right: 20px;
+}
+
+/*--Home-Page--*/
+
+.mainContainer{
+    max-width: unset !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.welcome{
+    font-size: 20px;
+}
+
+.welcome h1 {
+    margin-top: -40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.welcome-tron{
+    margin-bottom: 0 !important;
+}
+
+/*--Student-Page--*/
+
+.student-row{
+    margin-top: 60px;
+}
+
+/*--Parent-Page--*/
+
+.parent-card-header {
+    height: 50px !important;
+}
+
+.parent-card-button {
+    margin-top: -15px !important;
+    color: black !important;
+}
+
+.parent-card-button:hover{
+    background-color: black !important;
+    color: white !important;
+    text-decoration: none;
+}
+
+.parent-card-button:focus{
+    text-decoration: none !important;
+}
+
+/*--Staff-Page--*/
+
+.staff-img{
+    height: 350px;
+    border-radius: 10px;
+    border: 7.5px inset rgba(0,0,0,.075);
+}
+
+.staff-button {
+    bottom: -1px;
+}
+
+/*--News-Page--*/
+
+.fa-envelope {
+    font-size: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.fa-arrow-left, .fa-arrow-right {
+    font-size: 20px;
+}
+
+.media{
+    border: 1.5px solid rgba(128, 128, 128, .5);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/*--Contact--*/
+
+.contact-info {
+    margin-top: 10%;
+}
+
+.contact-submit{
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+}
+
+.contact-submit:hover{
+    color: black;
+    background-color: #ffc107!important;
+}
+
+/*--Cards--*/
+
+.card {
+    box-shadow: 5px 5px 5px rgba(108, 117, 125, .5);
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 25px !important;
+}
+
+.card-tron {
+    margin-bottom: 0px !important;
+    margin-top: 0 !important;
+    padding: 0 0 60px 0;
+}
+
+.card-text{
+    margin-bottom: 30px;
+}
+
+.card .btn {
+    position: absolute;
+    margin-left: -21px;
+    margin-top: -27px;
+    width: 101% !important;
+    height: 50px;
+    padding: 0;
+    font-size: 30px;
+}
+
+/*--Nav-Bar--*/
+
+.navbarCustom{
+    padding-bottom: 0 !important;
+}
+
+.searchBar{
+    position: absolute;
+    margin-top: -40px !important;
+}
+
+.navbar-nav {
+    font-size: 30px !important;
+    margin-top: 70px !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+/*--Nav-bar-Buttons-Hover--*/
+
+.nav-home:hover{
+    color: #17a2b8 !important;
+    transition: color .5s, text-shadow .5s;
+    text-shadow: 5px 5px 2px black;
+}
+
+.nav-home:hover .fa-school{
+    color: white !important;
+    transition: color .5s;
+}
+
+.nav-child:hover{
+   color: #28a745 !important;
+   transition: color .5s, text-shadow .5s;
+   text-shadow: 5px 5px 2px black;
+}
+
+.nav-child:hover .fa-child {
+   color: white !important;
+   transition: color .5s;
+}
+
+.nav-parent:hover{
+    color: #ffc107 !important;
+    transition: color .5s, text-shadow .5s;
+    text-shadow: 5px 5px 2px black;
+}
+
+.nav-parent:hover .fa-restroom{
+    color: white !important;
+    transition: color .5s;
+}
+
+.nav-staff:hover{
+    color: #17a2b8 !important;
+    transition: color .5s, text-shadow .5s;
+    text-shadow: 5px 5px 2px black;
+}
+
+.nav-staff:hover .fa-chalkboard-teacher{
+    color: white !important;
+    transition: color .5s;
+}
+
+.nav-news:hover{
+    color: #28a745 !important;
+    transition: color .5s, text-shadow .5s;
+    text-shadow: 5px 5px 2px black;
+}
+
+.nav-news:hover .fa-newspaper{
+    color: white !important;
+    transition: color .5s;
+}
+
+.nav-events:hover{
+    color: #ffc107 !important;
+    transition: color .5s, text-shadow .5s;
+    text-shadow: 5px 5px 2px black;
+}
+
+.nav-events:hover .fa-calendar-week{
+    color: white !important;
+    transition: color .5s;
+}
+
+.nav-about:hover{
+    color: #17a2b8 !important;
+    transition: color .5s, text-shadow .5s;
+    text-shadow: 5px 5px 2px black;
+}
+
+.nav-about:hover .fa-question-circle{
+    color: white !important;
+    transition: color .5s;
+}
+
+.nav-contact:hover{
+    color: #28a745 !important;
+    transition: color .5s, text-shadow .5s;
+    text-shadow: 5px 5px 2px black;
+}
+
+.nav-contact:hover .fa-comments{
+    color: white !important;
+    transition: color .5s;
+}
+
+/*--Carousel--*/
+
+.carousel-inner {
+    height: 70vh;
+}
+
+ .carouselImage{
+    height: 70vh;
+ }
+ 
+.fa-chevron-left{
+    font-size: 100px;
+    color: black;
+}
+
+.fa-chevron-right{
+    font-size: 100px;
+    color: black;
+}
+
+/*--Footer--*/
+
+.footer{
+    margin-bottom: 0 !important;
+    background-color: #6c757d !important;
+    color: white !important;
+    padding-bottom: 10px;
+    border-radius: 0;
+}
+
+.socials{
+    font-size: 35px;
+}
+
+.socialsLink{
+    color: white;
+}
+
+.socialsLink:hover {
+    color: black;
+    text-decoration: none;
+}
